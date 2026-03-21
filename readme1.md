@@ -193,10 +193,4 @@ This project provides a solid foundation for understanding how to:
 
 ---
 
-## 👩‍💻 Author
-
-**Gayatri Jadhav**
-
----
-
 ⭐ If you found this helpful, give it a star!
