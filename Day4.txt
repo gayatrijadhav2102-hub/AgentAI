@@ -1,3 +1,42 @@
 RAG: 
-chromadb,FAISS - It is one type of databases. store vector db. it store key and vector.
+Vector Database :- chromadb,FAISS - It is one type of databases. store vector db. it store key and vector.
 text to token generation - ollma nomic-embed-text
+
+RAG (retrieval-Augmented Generation)
+
+RAG = Search(Retrieve) + Answer(Generate)
+it uses their own data(pdf,db,docs,api) to accurate and up to data answer.
+
+How RAG Works (Step-by-Step)
+User asks a question
+System searches relevant data (documents, DB)
+Retrieves useful chunks
+Sends that to AI
+AI generates final answers
+
+User → Retriever → Relevant Data → LLM → Answer
+
+🔹 Example
+
+👉 You upload company documents
+
+User asks:
+“Company leave policy?”
+
+Without RAG:
+
+❌ AI guesses
+
+With RAG:
+
+✅ AI reads your document → gives exact answer
+
+--------------
+
+🔹 Key Components
+1. Loader
+Loads data (PDF, CSV, DB)
+2. Text Splitter
+Breaks data into chunks
+3. Embeddings
+Converts text → vectors

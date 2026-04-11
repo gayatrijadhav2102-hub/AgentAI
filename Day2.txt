@@ -1,0 +1,21 @@
+Langgraph :-
+
+user query -> what is the news in us ->LLM(chatgpt) ->
+1. calculate 
+2. web searches
+3. db connection
+
+create_agent() → builds AI agent
+run_agent() → sends query
+Agent uses:
+LangGraph
+Your calculator tool
+Output printed
+
+
+------------------
+What is a System Prompt?
+
+A system prompt is a special instruction given to an AI model that defines:
+
+👉 How it should behave, think, and respond
