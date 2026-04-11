@@ -1,0 +1,3 @@
+RAG: 
+chromadb,FAISS - It is one type of databases. store vector db. it store key and vector.
+text to token generation - ollma nomic-embed-text

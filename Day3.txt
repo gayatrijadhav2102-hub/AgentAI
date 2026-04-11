@@ -1,0 +1,115 @@
+Agentic System three main components:
+1. Prompts
+2. Memory
+3. Tools
+
+Langchain:- It request to model and return request.
+LangGraph:- Build custom agents With low level control
+
+-------------------------------------------------------
+
+Main Components of Langchain
+1.Prompts :- Templates that control how you send instructions to an LLM.
+ from langchain_core.prompts import ChatPromptTemplate
+ TYPES: 
+ 1. PromptTemplate
+ 2. ChatPromptTemplate
+ 3. Few-shot Prompting
+ 4. Dynamic Prompts
+
+    Models:-
+    ChatOpenAI
+    Gemini models
+    HuggingFace models
+
+2. Chains:- connect multiple steps together
+    I/p -> prompts -> LLM -> output
+
+    Types:
+    Simple chain
+    Sequential chain
+    RunnableSequence
+    RunnablePassthrough
+
+    Output Parsers:- Convert AI output into structured format.
+    Example:
+    JSON output
+    Pydantic parser
+    Structured output
+
+3. Agents:- AI system that can decide what action to take
+    e.g user:- what is weather?
+        Agents:- call weather aapi-> returns server
+
+4. Memory:- Allows the ai to remember conventional history
+     user:- my name is gayatri
+     User:- what is my name?
+     AI: Gayatri
+
+    Types:
+    ConversationBufferMemory
+    ConversationSummaryMemory
+    ConversationTokenBufferMemory
+
+5. Tools
+External functions the AI can use:
+Search engines
+Databases
+APIs
+Calculators
+
+-----------------------------------------------
+
+6. Document Loaders:
+Load documents for AI.
+
+Examples:
+
+PDF loader
+Text loader
+Web loader
+CSV loader
+
+Use cases:
+AI document chat
+Knowledge base bots
+
+7. Text Splitters
+
+Split large documents into chunks.
+
+Examples:
+
+RecursiveCharacterTextSplitter
+TokenTextSplitter
+Important for RAG systems.
+
+8. Embeddings: Convert text into vectors.
+
+Examples:
+
+OpenAI Embeddings
+HuggingFace embeddings
+Embeddings enable semantic search.
+
+9. Vector Databases (VERY IMPORTANT)
+
+Used to store embeddings.
+Examples:
+FAISS
+Pinecone
+Chroma
+Weaviate
+
+Use cases:
+
+Question → Vector Search → Relevant Docs → LLM Answer
+
+-----------------------------------------------
+Real-World Applications
+AI chatbots
+Document question answering
+Customer support bots
+Code assistants
+AI research tools
+Automation agents

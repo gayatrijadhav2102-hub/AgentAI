@@ -1,0 +1,74 @@
+------- Set a goal what have to do ----------
+
+Genrative AI:- It is based on data - driven patterns.
+
+Traditional AI: Follows predefined rules for repetitive tasks.
+Generative AI: Creates content based on prompts (reactive).
+Agentic AI: Executes complex workflows and makes decisions (proactive). 
+
+Agentic AI: It is structure you given to LLM. OR Some task + constraint.
+
+Autonomy - operates independently.
+Goal oriented - Pursues objectives. 
+Adaptability: Adapts to change
+contextual Awareness: Able to understands the context 
+Action oriented: Turns decisions into actions
+Self-improving: Learn and improves over time
+collaboration: Able to coordinate with other agents
+tool utilization: Uses external tools
+
+AI agents Workflows: 
+1. AI agents - Autonomous system using tools and Workflows
+2. LLM(Large Language Model) - Enable natural Language understands
+3. Tools - provide access to external data
+4. Feedback mechanisms - improves decision accuracy
+5. Prompt Engineering - Fine-tune agent instructions
+6. Multiagent collaboration - Teamwork for complex solutions
+7. Integrations - Connect to existing infrastructure
+
+AI System:-
+It interacts with users, retrives the information from database or vector databases
+via LLMs, and triggers actions, continuously improving through a Feedback loop (data flywhell) 
+and model customization.
+
+Benefits:-
+software development:- coding ,debugging, refactoring and intelligent code agents.
+Autonomous Vehicles
+cybersecurity
+Logistics & supply chain
+smart infrastructure
+
+challenges:
+Opaque decision: Difficult to understands how AI reaches conclusions.
+Bias Risks : Ai may reflect and amplify societal biases.
+Unrealiable outputs : Errors cam accumulate in multi-step tasks.
+Security concerns : Sensitive data may be exposed or misused.
+Autonomy Issues :  AI actions might not align with human intentions.
+
+Life cycle:- 
+ - Short term memory / Long-term memory
+RAG - Retrieval-Augmented Generation
+Web Operations
+Search Tools
+Code Interpreter
+Reflection
+self-critics
+chain of thoughts
+subgoal decomposition
+RAG -> startup -> polices,hr polices -> RAG => Data Injection -> do some kind of parsing -embedding(Text -> vectors)- Pipeline
+
+SENSE -the agent gather data from the environment using sensors
+PLAN -
+ACT - 
+
+AGENT TYPE:- 
+Reflex based agent - predefined rules
+model based agent - Keep an internal model to monitor environmental shifts and make smarter reflex decisions.
+goal based agent - strategically design action sequences to attain particular objectives.
+utility based agent - select action that enhance total utility or reward according to assessed results
+object centric agents - concentrate on understands and engaging with particular items in the environment
+citizen centric agents - independently handle regular personal and professional responsibilities using digital platforms.
+
+
+InstallationS:
+ollama, python3.11+,vscode, openai secret key,google gemina
